@@ -1,0 +1,53 @@
+:root {
+  display: grid;
+  grid-template-columns: 24em;
+  justify-content: center;
+}
+
+.main {
+  background-color: rgb(216, 216, 216);
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.tweak {
+  height: 50px;
+}
+
+.gold {
+  height: 50px;
+}
+
+button {
+  color: red;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 12em 12em;
+  column-gap: 0px;
+  margin-bottom: 8px;
+
+}
+
+.row span {
+  background-color: #337ab7;
+  border-radius: 4px;
+  color: #fff;
+  width: 120px;
+  text-align: center;
+  padding: 6px ;
+}
+
+.row input {
+  padding: 6px 12px;
+  margin-left: -4em;
+  margin-right: 2em;
+}
+
+.card {
+  h1 {
+    font-size: 50px;
+  }
+}
