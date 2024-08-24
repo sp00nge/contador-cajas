@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 24em;
   justify-content: center;
+  background-image: url('https://preview.redd.it/r6mr2lmr1mx71.jpg?width=1080&crop=smart&auto=webp&s=b42794c755889f8ce126c1c5284f5318f8366be2');
+  background-size: 200px;
 }
 
 .main {
