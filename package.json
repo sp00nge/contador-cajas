@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-use-websocket": "^4.8.1",
+    "socket.io-client": "^4.7.5",
     "statistics.js": "^1.0.0"
   },
   "devDependencies": {

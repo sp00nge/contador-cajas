@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
+
 function factorial(n) {
   if (n === 0) return 1;
   let result = 1;
@@ -38,6 +39,7 @@ function App() {
   }
   )
 
+
   useEffect(() => {
     localStorage.setItem('count', count)
   }, [count])
@@ -49,7 +51,7 @@ function App() {
     <>
       <article className='main'>
         <div>
-          <h1><img className='gold' src='/public/gold.webp'/>Contador Cajas<img className='tweak' src='/public/weak.webp'/></h1>
+          <h1><img className='gold' src='/gold.webp'/>Contador Cajas<img className='tweak' src='/weak.webp'/></h1>
         </div>
         <div className="card">
           <h1>{count}</h1>
