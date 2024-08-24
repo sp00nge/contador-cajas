@@ -46,6 +46,7 @@ function App() {
 
   const sumContador = () => { setCount(count + 1)}
   const resetearContador = () => { setCount(count * 0)}
+  const restarContador = () => { setCount(count - 1)}
 
   return (
     <>
@@ -60,6 +61,9 @@ function App() {
           </button>
           <button onClick={resetearContador}>
             <span style={{color: "green"}}>reset</span>
+          </button>
+          <button onClick={restarContador}>
+            <span style={{color: "blue"}}>-1</span>
           </button>
         </div>
         <div className='stats'>
